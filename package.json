@@ -5,6 +5,7 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
+    "gh-page": "npx angular-cli-ghpages --dir=dist/pf/browser",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "serve:ssr:pf": "node dist/pf/server/server.mjs"
