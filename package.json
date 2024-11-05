@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
+    "start": "ng serve -o --host 0.0.0.0",
     "build": "rm -rf dist docs && ng build --aot && mkdir docs && cp -r ./dist/pf/browser/* ./docs/",
     "gh-page": "ng build --aot && npx angular-cli-ghpages --dir=dist/pf/browser",
     "watch": "ng build --watch --configuration development",
